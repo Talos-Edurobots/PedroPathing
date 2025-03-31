@@ -28,23 +28,23 @@ public class FollowerConstants {
 
     /** The Localizer that the Follower & Pose Updater will use
      *  Default Value: Localizers.THREE_WHEEL */
-    public static Localizers localizers = Localizers.THREE_WHEEL;
+    public static Localizers localizers = Localizers.OTOS;
 
     /** The name of the left front motor
      *  Default Value: "leftFront" */
-    public static String leftFrontMotorName = "leftFront";
+    public static String leftFrontMotorName = "left_front";
 
     /** The name of the left rear motor
      *  Default Value: "leftRear" */
-    public static String leftRearMotorName = "leftRear";
+    public static String leftRearMotorName = "left_back";
 
     /** The name of the right front motor
      *  Default Value: "rightFront" */
-    public static String rightFrontMotorName = "rightFront";
+    public static String rightFrontMotorName = "right_front";
 
     /** The name of the right rear motor
      *  Default Value: "rightRear" */
-    public static String rightRearMotorName = "rightRear";
+    public static String rightRearMotorName = "right_back";
 
     /** The direction of the left front motor
      *  Default Value: DcMotorSimple.Direction.REVERSE */
@@ -52,11 +52,11 @@ public class FollowerConstants {
 
     /** The direction of the right front motor
      *  Default Value: DcMotorSimple.Direction.REVERSE */
-    public static DcMotorSimple.Direction rightFrontMotorDirection = DcMotorSimple.Direction.REVERSE;
+    public static DcMotorSimple.Direction rightFrontMotorDirection = DcMotorSimple.Direction.FORWARD;
 
     /** The direction of the left rear motor
      *  Default Value: DcMotorSimple.Direction.FORWARD */
-    public static DcMotorSimple.Direction leftRearMotorDirection = DcMotorSimple.Direction.FORWARD;
+    public static DcMotorSimple.Direction leftRearMotorDirection = DcMotorSimple.Direction.REVERSE;
 
     /** The direction of the right rear motor
      *  Default Value: DcMotorSimple.Direction.FORWARD */
